@@ -11,7 +11,7 @@ import { ToastContainer, toast } from "react-toastify";
 
 function App() {
   const [count, setCount] = useState(0);
-  const url = "http://localhost:4000";
+  const url = "https://fancytotel.onrender.com";
 
   return (
     <>
