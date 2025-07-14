@@ -1,0 +1,35 @@
+.side-navbar {
+  width: 18%;
+  min-height: 100vh;
+  border: 1.5px solid #a9a9a9;
+  font-size: max(1vw, 10px);
+}
+.sidebar-options {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.sidebar-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.sidebar-option:hover {
+  color: tomato;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .side-navbar {
+    width: 23%;
+    font-size: max(1vw, 8px);
+  }
+  .sidebar-options {
+    padding: 5px;
+  }
+}

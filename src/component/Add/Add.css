@@ -1,0 +1,72 @@
+.add {
+  width: 70%;
+  margin-left: max(5vw, 25px);
+  color: #6d6d6d;
+  font-size: 16px;
+}
+.add form {
+  gap: 20px;
+}
+.add-img-upload img {
+  width: 120px;
+  height: 120px;
+}
+.add-product-name input,
+.add-product-description textarea {
+  padding: 10px;
+}
+.add-category-price {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.add-category-price select,
+.add-category-price input {
+  max-width: 120px;
+  padding: 10px;
+}
+.add-category-price select {
+  border: none;
+}
+.add .btn {
+  max-width: 120px;
+  border: none;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+  margin-left: 16%;
+}
+
+@media (max-width: 600px) {
+  .add-product-name input,
+  .add-product-description textarea {
+    padding: 5px;
+    margin-right: 10%;
+    font-size: 10px;
+  }
+  .add-category-price {
+    display: block;
+    padding: 10px;
+    width: 100%;
+  }
+  .add {
+    font-size: 10px;
+  }
+  .add-category-price select,
+  .add-category-price input {
+    font-size: 10px;
+    width: 100%;
+  }
+  .add .btn {
+    width: 100%;
+    margin-left: 10px;
+    border: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+}
